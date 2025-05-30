@@ -1,0 +1,424 @@
+/* common style */
+* {
+  margin: 0;
+  padding: 0;
+}
+.inter {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: normal;
+}
+.meriweather {
+  font-family: Merriweather;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+/* header style */
+/* banner style */
+.banner {
+  width: 1320px;
+  height: 600px;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(7, 2, 17, 1) 0%,
+      rgba(7, 2, 17, 0.7) 50%,
+      rgba(208, 205, 213, 0) 100%
+    ),
+    url("./assets/images/Banner\ Image.png");
+
+  background-size: cover;
+  display: flex;
+}
+.banner-text {
+  margin: auto;
+  width: 632px;
+  height: 246px;
+}
+.banner-head {
+  font-weight: normal;
+  font-size: 32px;
+  text-align: center;
+}
+.banner-detail {
+  text-align: center;
+  font-weight: bold;
+  font-size: 72px;
+}
+/* main style */
+.off-section {
+  width: 802.9px;
+  height: 806px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.off-head {
+  font-size: 88px;
+  font-weight: bold;
+  font-family: Inter;
+  color: red;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.off-container h5 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #ff0000;
+}
+.off-container h4 {
+  text-align: center;
+  margin-bottom: 48px;
+  font-weight: 700;
+  font-family: Inter;
+  color: #070211;
+  font-size: 48px;
+}
+/* midnight style */
+.midnight {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto 120px;
+  padding: 126px 0 0 126px;
+  background: linear-gradient(
+      to right,
+      rgba(7, 2, 17, 1) 0%,
+      rgba(7, 2, 17, 0.6) 50%,
+      rgba(208, 205, 213, 0) 100%
+    ),
+    url(./assets/images/Vectorrr.png);
+  background-size: 1320px 600px; /* Explicit pixel dimensions */
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box; /* Ensures padding doesn't affect dimensions */
+}
+.midnight h1 {
+  margin-left: 15px;
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+  width: 500px;
+  font-family: Merriweather;
+}
+.midnight p {
+  margin-left: 15px;
+  width: 700px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  font-family: Inter;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.midnight button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: Inter;
+  background-color: transparent;
+  border: none;
+  margin-left: 40px;
+}
+/* Address */
+.address {
+  width: 1320px;
+  height: 482px;
+  margin-top: 120px;
+  margin: auto;
+  display: flex;
+  background: linear-gradient(
+    to bottom,
+    #ffb6c1 0%,
+    rgba(255, 182, 193, 0) 100%
+  );
+  margin-bottom: 120px;
+}
+.address-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.address p {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Inter;
+  text-align: center;
+}
+.address span {
+  font-size: 32px;
+  font-weight: 600;
+  color: #ff0000;
+}
+.address-container button {
+  margin: 48px auto;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Inter;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  background: #ff0000;
+  color: white;
+}
+
+/* 2024 style */
+.comming {
+  width: 1320px;
+  height: 463px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.best-offer {
+  width: 393px;
+  margin: auto;
+}
+.best-offer h5 {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+}
+.best-offer h3 {
+  font-family: Merriweather;
+  color: #070211;
+  font-size: 48px;
+  font-weight: bold;
+}
+.best-offer p {
+  font-family: Inter;
+  color: hsla(260, 79%, 4%, 60%);
+  font-size: 20px;
+  font-weight: normal;
+}
+.happy {
+  width: 276px;
+  margin: auto;
+}
+.happy h3 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+.happy p {
+  margin-bottom: 43px;
+}
+
+.hollow-ring {
+  width: 463px; /* Outer ring size */
+  height: 463px;
+  border: 16px solid red; /* Ring thickness & color */
+  border-radius: 50%; /* Makes it circular */
+  padding: 8px; /* Space between ring and image */
+  display: flex;
+  background: transparent; /* Ensures 
+  center is empty */
+
+  align-items: center;
+  justify-content: center;
+}
+/* holiday sale style */
+
+.holiday-sales {
+  width: 1320px;
+  height: 987px;
+  background-image: url(./assets/images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.holiday-text {
+  margin: 0 126px;
+}
+.holiday-text h5 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.holiday-text h2 {
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: bold;
+  color: #070211;
+  margin-bottom: 28px;
+}
+.holiday-text p {
+  text-align: center;
+  padding: 0 100px;
+  font-size: 20;
+  font-weight: 500;
+  color: hsla(260, 79%, 4%, 60%);
+}
+.holiday-vidual {
+  display: flex;
+  justify-content: space-between;
+}
+.pic-one img {
+  margin-top: 60px;
+}
+.pic-two {
+  display: flex;
+}
+.pic-two img {
+  padding: 50% 44px 50% 44px;
+}
+/* git section style */
+.gifts {
+  width: 1320px;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.gifts h5 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+  margin-bottom: 16px;
+}
+.gifts h3 {
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: bold;
+  color: #070211;
+  margin-bottom: 19px;
+}
+.gifts p {
+  width: 750px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: normal;
+  color: hsla(260, 79%, 4%, 60%);
+}
+.gift-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+/* feedback style */
+.feedback {
+  width: 1320px;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(351, 100%, 86%, 20%);
+  border-radius: 8px;
+}
+.feedback-text {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.feedback-text img {
+  margin-bottom: 48px;
+}
+.feedback-text h3 {
+  margin-bottom: 22px;
+  font-family: Merriweather;
+  font-weight: bold;
+  color: #070211;
+  font-size: 48px;
+}
+.feedback-text p {
+  color: hsla(260, 79%, 4%, 60%);
+}
+.feedback form input {
+  border: none;
+  width: 648px;
+  height: 72px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+}
+.feedback form input::placeholder {
+  font-family: Inter;
+  font-size: 20px;
+  color: hslsa(260, 79%, 4%, 40%);
+  font-weight: normal;
+  padding-left: 50px;
+}
+.feedback form button {
+  background: #ff0000;
+  font-weight: 500;
+  border: none;
+  color: white;
+  width: 210px;
+  height: 72px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+/* footer design */
+
+.foot {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 120px 140px;
+  background-color: #070211;
+  color: white;
+}
+.line {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin: 48px 0;
+}
+.foot-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 24px;
+}
+.foot-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-1-contact p {
+  display: block;
+}
+.foot-1-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.foot-1-contact div {
+  display: flex;
+  align-items: center; /* Vertically centers icon and text */
+  gap: 8px;
+}
+.foot-3 button {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  width: 145px;
+  height: 29px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
