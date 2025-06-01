@@ -422,3 +422,9 @@ body {
   border: none;
   color: white;
 }
+.feedback form input:hover {
+  border: blue;
+  color: #070211;
+  font-size: 28px;
+  padding-left: 40px;
+}
